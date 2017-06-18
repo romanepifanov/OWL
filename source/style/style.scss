@@ -1,0 +1,45 @@
+@import 'common/_const.scss';
+html {
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    & button {
+        outline: none;
+        cursor: pointer;
+    }
+    & input {
+        outline: none;
+        cursor: pointer;
+    }
+    & a {
+        cursor: pointer;
+        outline: none;
+    }
+}
+
+.normal__title {
+    font-size: 30px;
+    font-family: PT Sans;
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    background: none;
+}
+
+@import 'common/*.scss';
+@media (max-width:992px) {}
+
+@media (max-width:768px) {}
+
+@media (max-width:420px) {}
+
+@media (max-width:380px) {}
+
+@media (max-width:360px) {}
+
+@media (max-width:320px) {}

@@ -1,0 +1,31 @@
+.header {
+    height: 100px;
+    &__logotype {
+        margin: 9.5px 303px 0 0;
+        height: 81px;
+        width: 297px;
+    }
+    &__menu {
+        list-style: none;
+        margin: 39px 0 0;
+        padding:  0;
+        display: flex;
+        justify-content: space-between;
+        &Item {
+            display: inline;
+            & a {
+                color:$black;
+                font-size: 16px;
+                text-decoration: none;
+            }
+            & a:hover {
+                color:$blue;
+                border:1px solid $blue;
+                font-family: Source Sans Pro;
+                border-radius: 3px;
+                padding: 4px 6px;
+                margin:0 -7px;
+             }
+        }
+    }
+}
