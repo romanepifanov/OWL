@@ -1,3 +1,34 @@
 .section__second {
     height: 776px;
+    padding: 40px 0 30px;
+    &Box {
+        padding-top: 60px;
+        &Item {
+            margin-bottom: 50px;
+            height: 120px;
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            &Picture {
+                width: 44px;
+                height: 44px;
+                margin-right: 25px;
+            }
+            &Title {
+                font-family: PT Sans;
+                font-weight: bold;
+                font-size: 20px;
+            }
+            &Description {
+                margin-left: 69px;
+                font-family: PT Sans;
+            }
+            &:last-child {
+                margin: 0;
+            }
+        }
+    }
+    &Picture {
+        margin-top: 130px;
+    }
 }
