@@ -1,0 +1,15 @@
+.section__fourth {
+    height: 250px;
+    padding-top: 40px;
+    &Gallery {
+        width:970px;
+        margin:0 auto;
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        & img {
+            width: 179px;
+            height: 89px;
+        }
+    }
+}

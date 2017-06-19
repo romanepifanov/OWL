@@ -1,0 +1,77 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.45);
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.modal {
+    z-index: 10000;
+    position: fixed;
+    top: 50%;
+    left: 120%;
+    margin-top: -243px;
+    margin-left: -285px;
+    height: 486px;
+    width: 570px;
+    background-size: 100%;
+    background: url(/assets/img/modal/background.png) no-repeat;
+    background-color: $white;
+    padding: 50px 100px;
+    &__open {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        &Title {
+            width: 100%;
+            text-align: center;
+            font-size: 35px;
+            font-family: PT Sans;
+            color: $blueDark;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        &Notyce {
+            width: 100%;
+            text-align: center;
+            font-size: 25px;
+            font-family: PT Sans;
+            color: $blueDark;
+            margin-bottom: 17px;
+        }
+        &Name {
+            width: 370px;
+            height: 50px;
+            border: 1px solid $greyDark;
+            color: $blueDark;
+            font-size: 18px;
+            padding-left: 14px;
+            font-family: PT Sans;
+            margin-bottom: 16px;
+        }
+        &Phone {
+            width: 370px;
+            height: 50px;
+            border: 1px solid $greyDark;
+            color: $blueDark;
+            font-size: 18px;
+            padding-left: 14px;
+            font-family: PT Sans;
+            margin-bottom: 16px;
+        }
+        &Button {
+            background: $blue;
+            border-radius: 3px;
+            height: 44px;
+            width: 170px;
+            border: none;
+            color: $white;
+            font-family: PT Sans;
+            font-weight: bold;
+            font-size: 17px;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.section__fifth {
+    padding-top: 40px;
+    height: 409px;
+    border-bottom: 1px solid $greyDark;
+    background: url(/assets/img/section__5/section__5__background.png) no-repeat 100% 109%;
+    &Box {
+        padding-top: 60px;
+        margin: 0 auto;
+        width: 970px;
+        &Picture {
+            width: 970px;
+            height: 150px;
+        }
+        &Pass{
+            display: flex;
+            justify-content: space-between;
+            &Item {
+                width: 180px;
+                height: 50px;
+                font-weight: bold;
+                font-size: 20px;
+                font-family: PT Sans;
+                text-align: center;
+            }
+        }
+    }
+}

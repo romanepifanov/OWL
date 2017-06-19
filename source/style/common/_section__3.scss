@@ -1,0 +1,53 @@
+.section__third {
+    background: url(/assets/img/section__3/sections__3__background.png) no-repeat;
+    background-size: 100%;
+    height: 698px;
+    padding-top: 40px;
+    &Box {
+        width: 970px;
+        padding-top: 40px;
+        margin: 0 auto 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        &Item {
+            display: flex;
+            flex-wrap: wrap;
+            font-family: PT Sans;
+            color: $white;
+            width: 470px;
+            height: 258px;
+            margin-bottom: 30px;
+            background: $LightBlack;
+            padding: 30px 0 20px 30px;
+            &Title {
+                margin: 0 0 20px 62px;
+                width: 300px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            &Description {
+                width: 270px;
+                word-break: break-all;
+                height: 136px;
+            }
+            &Link {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100px;
+                height: 40px;
+                background: $blue;
+                border-radius: 5px 0 0 5px;
+                color: $white;
+                font-size: 17px;
+                font-family: Segoe UI;
+                margin: -18px 0 0 340px;
+                &:hover {
+                    color: $white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
