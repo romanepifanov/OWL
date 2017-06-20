@@ -2,14 +2,39 @@
     height: 250px;
     padding-top: 40px;
     &Gallery {
-        width:970px;
-        margin:0 auto;
+        width: 970px;
+        margin: 0 auto;
         padding-top: 40px;
         display: flex;
         justify-content: space-between;
         & img {
             width: 179px;
             height: 89px;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .section__fourth {
+        height: auto;
+        &Gallery {
+            width: auto;
+        }
+    }
+}
+
+@media (max-width:420px) {
+    .section__fourth {
+        &Gallery {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media (max-width:360px) {
+    .section__fourth {
+        &Gallery {
+            justify-content: center;
         }
     }
 }

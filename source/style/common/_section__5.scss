@@ -11,7 +11,7 @@
             width: 970px;
             height: 150px;
         }
-        &Pass{
+        &Pass {
             display: flex;
             justify-content: space-between;
             &Item {
@@ -25,3 +25,49 @@
         }
     }
 }
+
+@media (max-width:992px) {
+    .section__fifth {
+        &Box {
+            &Pass {
+                display: flex;
+                justify-content: space-between;
+                &Item {
+                    width: 170px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .section__fifth {
+        height: auto;
+        &Box {
+            width: auto;
+            &Picture {
+                width: 100%;
+                height: auto;
+            }
+            &Pass{
+                &Item{
+                    width: 130px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:420px) {
+    .section__fifth {
+        display: none;
+    }
+}
+
+@media (max-width:380px) {}
+
+@media (max-width:360px) {}
+
+@media (max-width:320px) {}

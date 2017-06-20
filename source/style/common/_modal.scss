@@ -11,6 +11,7 @@
 .modal {
     z-index: 10000;
     position: fixed;
+    display: none;
     top: 50%;
     left: 120%;
     margin-top: -243px;

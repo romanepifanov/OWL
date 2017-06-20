@@ -3,9 +3,15 @@
     padding: 40px 0 30px;
     &Box {
         padding-top: 60px;
+        width: 1070px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
         &Item {
             margin-bottom: 50px;
             height: 120px;
+            width: 400px;
             display: flex;
             justify-content: flex-start;
             flex-wrap: wrap;
@@ -29,6 +35,77 @@
         }
     }
     &Picture {
-        margin-top: 130px;
+        height: 606px;
+    }
+}
+
+@media (max-width:992px) {
+    .section__second {
+        &Box {
+            width: auto;
+            justify-content: space-around;
+        }
+        &Picture {
+            height: 500px;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .section__second {
+        &Box {
+            width: auto;
+            justify-content: space-around;
+        }
+        &Picture {
+            display: none;
+        }
+    }
+}
+
+@media (max-width:420px) {
+    .section__second {
+        &Box {
+            &Item {
+                width: 100%;
+                padding: 0 16px;
+            }
+        }
+    }
+}
+
+@media (max-width:360px) {
+    .section__second {
+        &Box {
+            &Item {
+                &Title {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:320px) {
+    .section__second {
+        height: 460px;
+        &Box {
+            padding: 20px 0 0 0;
+            &Item {
+                height: 69px;
+                margin-bottom: 15px;
+                padding: 0 31px;
+                &Title {
+                    font-size: 12px;
+                }
+                &Description {
+                    font-size: 10px;
+                }
+                &Picture {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
     }
 }

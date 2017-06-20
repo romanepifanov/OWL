@@ -1,12 +1,13 @@
 .section__third {
     background: url(/assets/img/section__3/sections__3__background.png) no-repeat;
     background-size: 100%;
+    background-color: $brown;
     height: 698px;
     padding-top: 40px;
     &Box {
-        width: 970px;
+        width: 972px;
         padding-top: 40px;
-        margin: 0 auto 0;
+        margin: 0 auto;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -28,7 +29,7 @@
             }
             &Description {
                 width: 270px;
-                word-break: break-all;
+                // word-break: break-all;
                 height: 136px;
             }
             &Link {
@@ -46,6 +47,81 @@
                 &:hover {
                     color: $white;
                     text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .section__third {
+        height: auto;
+        &Box {
+            justify-content: center;
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width:420px) {
+    .section__third {
+        &Box {
+            &Item {
+                width: 96%;
+                &Link {
+                    margin-left: 280px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:380px) {
+    .section__third {
+        &Box {
+            &Item {
+                padding: 10px 26px 15px;
+                &Title {
+                    margin-left: 0;
+                    text-align: center;
+                }
+                &Link {
+                    margin-left: 250px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:360px) {
+    .section__third {
+        &Box {
+            &Item {
+                &Link {
+                    margin-left: 231px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:320px) {
+    .section__third {
+        &Box {
+            &Item {
+                width:312px;
+                height: 175px;
+                &Title {
+                    font-size: 12px;
+                }
+                &Description {
+                    font-size: 10px;
+                }
+                &Link {
+                    width: 73px;
+                    height: 29px;
+                    font-size: 10px;
+                    margin: -50px 0 0 234px;
                 }
             }
         }

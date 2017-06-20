@@ -1,18 +1,19 @@
 section.section__second
     .wrapper
         .normal__title(id="advantages") Наши приемущества
-        .col-lg-4.col-lg-offset-1.section__secondBox
-            -
-                var itemsPlus = [
-                    { src : 'assets/img/section__2/atom.png', title : 'Современные технологии', description : 'В разработке используются современные технологии, облегчающие дальнейшее сопровождение и развитие проекта.'}
-                    ,{ src : 'assets/img/section__2/responsive.png', title : 'Адаптивность', description : 'При разработке мы учитываем любое разрешение экрана для удобства просмотра и пользованием сайта.'}
-                    ,{ src : 'assets/img/section__2/atoms.png', title : 'Работаем на результат', description : 'При разработке ставятся конкретные и измеримые цели. Мы делаем сайт, который будет работать на ваш бизнес и генерировать продажи.'}
-                    ,{ src : 'assets/img/section__2/key.png', title : 'Разработка под ключ', description : 'Создание сайтов «под ключ» - полный спектр работ начиная от дизайна до наполнения и технической поддержки.'}
-                ];
-            each item in itemsPlus
-                .section__secondBoxItem
-                    img(src= item.src).section__secondBoxItemPicture
-                    .section__secondBoxItemTitle= item.title
-                    .section__secondBoxItemDescription= item.description
+        .section__secondBox
+            div
+                -
+                    var itemsPlus = [
+                        { src : 'assets/img/section__2/atom.png', title : 'Современные технологии', description : 'В разработке используются современные технологии, облегчающие дальнейшее сопровождение и развитие проекта.'}
+                        ,{ src : 'assets/img/section__2/responsive.png', title : 'Адаптивность', description : 'При разработке мы учитываем любое разрешение экрана для удобства просмотра и пользованием сайта.'}
+                        ,{ src : 'assets/img/section__2/atoms.png', title : 'Работаем на результат', description : 'При разработке ставятся конкретные и измеримые цели. Мы делаем сайт, который будет работать на ваш бизнес и генерировать продажи.'}
+                        ,{ src : 'assets/img/section__2/key.png', title : 'Разработка под ключ', description : 'Создание сайтов «под ключ» - полный спектр работ начиная от дизайна до наполнения и технической поддержки.'}
+                    ];
+                each item in itemsPlus
+                    .section__secondBoxItem
+                        img(src= item.src).section__secondBoxItemPicture
+                        .section__secondBoxItemTitle= item.title
+                        .section__secondBoxItemDescription= item.description
 
-        img(src="assets/img/section__2/owl__right.jpg" alt="owl").col-lg-5.col-lg-offset-2.section__secondPicture
+            img(src="assets/img/section__2/owl__right.jpg" alt="owl").section__secondPicture
