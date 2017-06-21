@@ -11,18 +11,38 @@ $(document).ready(function() {
             left: '50%'
         }, 500)
     });
-    $(".overlay, .modal__openButton").click(function() {
+    $(".overlay, .modal__close").click(function() {
         $(".modal").animate({
             left: '120%'
         }, 500, function() {
             $(".modal").css({
                 display: 'none'
             });
+            $(".overlay").css({
+                display: 'none'
+            });
         });
-        $(".overlay").css({
-            display: 'none'
-        });
+
     });
+    var messagePush = false;
+    $(".messagePush").click(function() {
+        messagePush = true;
+        if (messagePush) {
+            $(".modal__open, .bottomForm").fadeOut(600, displayThanksPage)
+
+            // $(".thanksPage").fadeIn(600);
+
+            function displayThanksPage() {
+                $(".modal__open, .bottomForm").css(
+                    'display', 'none'
+                );
+                $(".thanksPage").css(
+                    'display', 'flex'
+                );
+            }
+        }
+    })
+
     // End Open Modal
     //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     // Open Menu
@@ -46,4 +66,20 @@ $(document).ready(function() {
     });
 
     // End Open Menu
+    //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    // Slider
+    var slideCount = $(".carusel__box").children().length;
+    var widthItem = $(".carusel__item").width() + 10;
+    var slideInterval = 0;
+
+    function nextSlide() {
+        slideInterval = slideInterval + (slideInterval * -1);
+        $(".carusel__box").animate({
+            transform: 'translateX(' + slideInterval + 'px)'
+        }, 500);
+    }
+    setTimeout(nextSlide, 500);
+
+
+    // End Slider
 });

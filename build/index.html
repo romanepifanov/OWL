@@ -86,7 +86,9 @@
 <section class="section__fourth">
   <div class="wrapper">
     <div class="normal__title" id="projects">Наши проекты</div>
-    <div class="section__fourthGallery"><img src="assets/img/section__4/logo.png" alt="1"><img src="assets/img/section__4/logo.png" alt="2"><img src="assets/img/section__4/logo.png" alt="3"><img src="assets/img/section__4/logo.png" alt="4"></div>
+    <div class="section__fourthGallery">
+      <div class="carusel__box"><img class="carusel__item" src="assets/img/section__4/logo.png" alt="1"><img class="carusel__item" src="assets/img/section__4/logo.png" alt="2"><img class="carusel__item" src="assets/img/section__4/logo.png" alt="3"><img class="carusel__item" src="assets/img/section__4/logo.png" alt="4"></div>
+    </div>
   </div>
 </section>
 <section class="section__fifth">
@@ -116,13 +118,18 @@
 <footer class="footer">
   <div class="normal__title" id="call">Оставьте заявку и мы Вам перезвоним</div>
   <div class="footer__Box">
-    <div class="footer__BoxDate">
-      <input class="footer__BoxDateName" type="text" placeholder="ФИО">
-      <input class="footer__BoxDatePhone" type="text" placeholder="Телефон">
-      <input class="footer__BoxDateEmail" type="text" placeholder="Эл. почта">
+    <div class="bottomForm">
+      <div class="footer__BoxDate">
+        <input class="footer__BoxDateName" type="text" placeholder="ФИО">
+        <input class="footer__BoxDatePhone" type="text" placeholder="Телефон">
+        <input class="footer__BoxDateEmail" type="text" placeholder="Эл. почта">
+      </div>
+      <textarea class="footer__BoxText" placeholder="Ваш вопрос..."></textarea>
+      <button class="footer__BoxButton messagePush">Отправить</button>
     </div>
-    <textarea class="footer__BoxText" placeholder="Ваш вопрос..."></textarea>
-    <button class="footer__BoxButton">Отправить</button>
+    <div class="thanksPage">
+      <div class="thanksPage__title">Спасибо наш специальст свяжется с Вами в течении 30 минут</div>
+    </div>
   </div>
 </footer>
 <div class="overlay"></div>
@@ -132,6 +139,10 @@
     <div class="modal__openNotyce">Мы перезвоним Вам в течении часа</div>
     <input class="modal__openName" type="text" placeholder="ФИО">
     <input class="modal__openPhone" type="text" placeholder="Телефон">
-    <button class="modal__openButton">Отправить</button>
+    <button class="modal__openButton messagePush">Отправить</button>
+  </div>
+  <div class="thanksPage">
+    <div class="thanksPage__title">Спасибо наш специальст свяжется с Вами в течении 30 минут</div>
+    <button class="thanksPage__button modal__close">Закрыть</button>
   </div>
 </div>

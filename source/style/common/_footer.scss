@@ -7,9 +7,6 @@
         width: 770px;
         margin: 0 auto;
         padding-top: 40px;
-        display: flex;
-        justify-content: flex-end;
-        flex-wrap: wrap;
         &Date {
             width: 100%;
             display: flex;
@@ -36,15 +33,75 @@
             font-family: PT Sans;
             margin-bottom: 40px;
         }
-        &Button{
+        &Button {
             background: $blue;
             border-radius: 3px;
             height: 35px;
             width: 138px;
-            border:none;
-            color:$white;
+            border: none;
+            color: $white;
             font-family: PT Sans;
             font-weight: bold;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .footer {
+        height: auto;
+        &__Box {
+            width: auto;
+            padding: 20px 25px;
+            &Date {
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
+
+@media (max-width:420px) {
+    .footer {
+        &__Box {
+            &Date {
+                flex-wrap: wrap;
+                & input {
+                    width: 100%;
+                    margin-bottom: 20px;
+                    &:last-child {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:360px) {
+    .footer {
+        &__Box {
+            padding: 15px 10px;
+        }
+    }
+}
+
+@media (max-width:320px) {
+    .footer {
+        &__Box {
+            &Date {
+                & input {
+                    width: 100%;
+                    height: 30px;
+                    font-size: 14px;
+                    margin-bottom: 15px;
+                    &:last-child {
+                        margin: 0;
+                    }
+                }
+            }
+            &Text {
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
         }
     }
 }

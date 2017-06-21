@@ -5,11 +5,26 @@
         width: 970px;
         margin: 0 auto;
         padding-top: 40px;
-        display: flex;
-        justify-content: space-between;
+        overflow: hidden;
         & img {
             width: 179px;
             height: 89px;
+        }
+    }
+}
+
+.carusel {
+    &__box {
+        width: 10000px;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+    }
+    &__item {
+        user-select:none;
+        margin-right: 10px;
+        &:last-child {
+            margin: 0;
         }
     }
 }

@@ -28,6 +28,7 @@
     "gulp-svgmin": "^1.2.2"
   },
   "dependencies": {
-    "normalize.css": "^4.2.0"
+    "normalize.css": "^4.2.0",
+    "owl.carousel": "^2.2.0"
   }
 }

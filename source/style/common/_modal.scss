@@ -76,3 +76,63 @@
         }
     }
 }
+
+@media (max-width:420px) {
+    .modal {
+        width: 416px;
+        height: 400px;
+        margin-top: -200px;
+        margin-left: -208px;
+        padding: 16px;
+    }
+}
+
+@media (max-width:380px) {
+    .modal {
+        width: 376px;
+        height: 400px;
+        margin-top: -200px;
+        margin-left: -188px;
+        padding: 8px;
+    }
+}
+
+@media (max-width:360px) {
+    .modal {
+        width: 356px;
+        height: 400px;
+        margin-top: -200px;
+        margin-left: -178px;
+        padding: 8px;
+    }
+}
+
+@media (max-width:320px) {
+    .modal {
+        width: 316px;
+        height: 376px;
+        margin-top: -188px;
+        margin-left: -158px;
+        padding: 10px 2px 2px;
+        &__open {
+            &Title {
+                font-size: 18px;
+            }
+            &Notyce {
+                font-size: 16px;
+                margin-bottom: 60px;
+            }
+            &Name {
+                font-size: 14px;
+                height: 40px;
+            }
+            &Phone {
+                font-size: 14px;
+                height: 40px;
+            }
+            &Button{
+                font-size: 16px;
+            }
+        }
+    }
+}
