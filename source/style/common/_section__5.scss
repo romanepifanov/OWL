@@ -9,33 +9,8 @@
         width: 970px;
         &Picture {
             width: 970px;
-            height: 150px;
-        }
-        &Pass {
-            display: flex;
-            justify-content: space-between;
-            &Item {
-                width: 180px;
-                height: 50px;
-                font-weight: bold;
-                font-size: 20px;
-                font-family: PT Sans;
-                text-align: center;
-            }
-        }
-    }
-}
-
-@media (max-width:992px) {
-    .section__fifth {
-        &Box {
-            &Pass {
-                display: flex;
-                justify-content: space-between;
-                &Item {
-                    width: 170px;
-                    font-size: 18px;
-                }
+            &Mobile {
+                display: none;
             }
         }
     }
@@ -48,13 +23,6 @@
             width: auto;
             &Picture {
                 width: 100%;
-                height: auto;
-            }
-            &Pass{
-                &Item{
-                    width: 130px;
-                    font-size: 16px;
-                }
             }
         }
     }
@@ -62,12 +30,15 @@
 
 @media (max-width:420px) {
     .section__fifth {
-        display: none;
+        &Box {
+            padding: 20px 8px;
+            &Picture {
+                display: none;
+                &Mobile {
+                    width: 100%;
+                    display: block;
+                }
+            }
+        }
     }
 }
-
-@media (max-width:380px) {}
-
-@media (max-width:360px) {}
-
-@media (max-width:320px) {}

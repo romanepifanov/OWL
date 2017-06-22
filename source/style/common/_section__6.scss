@@ -14,7 +14,6 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            font-family: PT Sans;
             &Picture {
                 height: 122px;
                 width: 122px;
@@ -36,7 +35,7 @@
                 margin-right: -214px;
                 &:hover {
                     text-decoration: none;
-                    color: $black;
+                    color: $blue;
                 }
             }
         }

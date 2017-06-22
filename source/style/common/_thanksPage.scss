@@ -21,9 +21,11 @@
         width: 170px;
         border: none;
         color: $white;
-        font-family: PT Sans;
         font-weight: bold;
         font-size: 17px;
+        &:active {
+            background: $blueDark;
+        }
     }
 }
 

@@ -18,8 +18,8 @@
     margin-left: -285px;
     height: 486px;
     width: 570px;
-    background-size: 100%;
     background: url(/assets/img/modal/background.png) no-repeat;
+    background-size: 100%;
     background-color: $white;
     padding: 50px 100px;
     &__open {
@@ -30,7 +30,6 @@
             width: 100%;
             text-align: center;
             font-size: 35px;
-            font-family: PT Sans;
             color: $blueDark;
             font-weight: bold;
             margin-bottom: 30px;
@@ -39,7 +38,6 @@
             width: 100%;
             text-align: center;
             font-size: 25px;
-            font-family: PT Sans;
             color: $blueDark;
             margin-bottom: 17px;
         }
@@ -50,7 +48,6 @@
             color: $blueDark;
             font-size: 18px;
             padding-left: 14px;
-            font-family: PT Sans;
             margin-bottom: 16px;
         }
         &Phone {
@@ -60,7 +57,6 @@
             color: $blueDark;
             font-size: 18px;
             padding-left: 14px;
-            font-family: PT Sans;
             margin-bottom: 16px;
         }
         &Button {
@@ -70,9 +66,11 @@
             width: 170px;
             border: none;
             color: $white;
-            font-family: PT Sans;
             font-weight: bold;
             font-size: 17px;
+            &:active {
+                background: $blueDark;
+            }
         }
     }
 }
@@ -130,7 +128,7 @@
                 font-size: 14px;
                 height: 40px;
             }
-            &Button{
+            &Button {
                 font-size: 16px;
             }
         }
