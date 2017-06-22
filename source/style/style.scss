@@ -15,10 +15,18 @@ body {
         outline: none;
         cursor: pointer;
     }
+    & textarea {
+        cursor: pointer;
+        outline: none;
+    }
     & a {
         cursor: pointer;
         outline: none;
     }
+}
+
+.owl-carousel .owl-item img {
+    width: auto;
 }
 
 .normal__title {
@@ -71,7 +79,7 @@ body {
     .wrapper {
         width: 360px;
     }
-        .normal__title {
+    .normal__title {
         text-align: center;
     }
 }

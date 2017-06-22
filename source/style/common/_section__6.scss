@@ -3,8 +3,6 @@
     padding-top: 40px;
     border-bottom: 1px solid $greyLight;
     &Box {
-        display: flex;
-        justify-content: space-between;
         padding: 40px 15px 0;
         &Item {
             padding: 25px 37px;
@@ -46,9 +44,8 @@
     .section__sixth {
         height: auto;
         &Box {
-            justify-content: space-around;
-            flex-wrap: wrap;
             &Item {
+                width: 100% !important;
                 &:first-child {
                     margin-bottom: 40px;
                 }
@@ -71,7 +68,6 @@
         &Box {
             &Item {
                 margin-bottom: 20px;
-                width: 350px;
             }
         }
     }
@@ -82,9 +78,8 @@
         &Box {
             &Item {
                 margin-bottom: 20px;
-                width: 258px;
                 height: 261px;
-                padding: 15px 0 15px 26px;
+                padding: 15px;
                 &Picture {
                     width: 84px;
                     height: 84px;
