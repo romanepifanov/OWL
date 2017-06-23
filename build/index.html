@@ -32,152 +32,153 @@
     <link rel="stylesheet" href="assets/css/style.css"><!-- END CSS -->
     <link rel="image_src" href="http://owlcom.h1n.ru/assets/img/header/logotype.png">
     <link href="assets/img/favicone.png" rel="shortcut icon" type="image/x-icon"><!-- SCRIPT --> 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/jquery.maskedinput.min.js"></script>
-    <script src="assets/js/app.js"></script><!--[if lt IE 9]>
+<!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
 <!-- END SCRIPT --> 
   </head>
   <body>
+    <header class="header">
+      <div class="wrapper">
+        <nav class="header__navbar"><img class="header__logotype" src="assets/img/header/logotype.png" alt="logotype">
+          <button class="header__phoneMenu"><img class="header__phoneMenuPhoto" src="assets/img/header/menu__mobile.png" alt="меню"></button>
+          <ul class="header__menu">
+            <li class="header__menuItem"><a href="#advantages">Приемущества</a></li>
+            <li class="header__menuItem"><a href="#services">Услуги</a></li>
+            <li class="header__menuItem"><a href="#projects">Проекты</a></li>
+            <li class="header__menuItem"><a href="#work">Работы</a></li>
+            <li class="header__menuItem"><a href="#call">Свяжитесь с нами</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="section__first">
+      <div class="wrapper">
+        <div class="section__firstTitleMain">Наша работа — наша страсть.</div>
+        <div class="section__firstTitle">Мы создаем качественные сайты, которые работают на ваш бизнес.</div>
+      </div>
+    </section>
+    <section class="section__second">
+      <div class="wrapper">
+        <div class="normal__title" id="advantages">Наши приемущества</div>
+        <div class="section__secondBox">
+          <div>
+            <div class="section__secondBoxItem"><img class="section__secondBoxItemPicture" src="assets/img/section__2/atom.png">
+              <div class="section__secondBoxItemTitle">Современные технологии</div>
+              <div class="section__secondBoxItemDescription">В разработке используются современные технологии, облегчающие дальнейшее сопровождение и развитие проекта.</div>
+            </div>
+            <div class="section__secondBoxItem"><img class="section__secondBoxItemPicture" src="assets/img/section__2/responsive.png">
+              <div class="section__secondBoxItemTitle">Адаптивность</div>
+              <div class="section__secondBoxItemDescription">При разработке мы учитываем любое разрешение экрана для удобства просмотра и пользованием сайта.</div>
+            </div>
+            <div class="section__secondBoxItem"><img class="section__secondBoxItemPicture" src="assets/img/section__2/atoms.png">
+              <div class="section__secondBoxItemTitle">Работаем на результат</div>
+              <div class="section__secondBoxItemDescription">При разработке ставятся конкретные и измеримые цели. Мы делаем сайт, который будет работать на ваш бизнес и генерировать продажи.</div>
+            </div>
+            <div class="section__secondBoxItem"><img class="section__secondBoxItemPicture" src="assets/img/section__2/key.png">
+              <div class="section__secondBoxItemTitle">Разработка под ключ</div>
+              <div class="section__secondBoxItemDescription">Создание сайтов «под ключ» - полный спектр работ начиная от дизайна до наполнения и технической поддержки.</div>
+            </div>
+          </div><img class="section__secondPicture" src="assets/img/section__2/owl__right.png" alt="owl">
+        </div>
+      </div>
+    </section>
+    <section class="section__third">
+      <div class="wrapper">
+        <div class="normal__title" id="services">Какие услуги мы предоставляем?</div>
+        <div class="section__thirdBox">
+          <div class="section__thirdBoxItem">
+            <div class="section__thirdBoxItemTitle">САЙТ ВИЗИТКА</div>
+            <div class="section__thirdBoxItemDescription">Станет отличным бюджетным вариантом для краткого ознакомления с компанией, магазином или другой организацией. Данный ресурс является самым простым и недорогим проектом, так как он состоит всего из одной страници.</div><a class="open__modal section__thirdBoxItemLink">Подробнее</a>
+          </div>
+          <div class="section__thirdBoxItem">
+            <div class="section__thirdBoxItemTitle">КОРПОРАТИВНЫЙ САЙТ</div>
+            <div class="section__thirdBoxItemDescription">Проект имеет более «продвинутый» функционал и большее количество страниц по сравнению с сайтом визиткой – от 5 до 20. Управлять опубликованным контентом Вы сможете при помощи наличия удобной системы управления.</div><a class="open__modal section__thirdBoxItemLink">Подробнее</a>
+          </div>
+          <div class="section__thirdBoxItem">
+            <div class="section__thirdBoxItemTitle">LANDING</div>
+            <div class="section__thirdBoxItemDescription">Еще один бюджетный вариант для ознакомления с компанией, магазином или другой организацией для сбора контактных данных целевой аудитории. Данный ресурс является  недорогим проектом, так как он состоит до 5 страниц страници.</div><a class="open__modal section__thirdBoxItemLink">Подробнее</a>
+          </div>
+          <div class="section__thirdBoxItem">
+            <div class="section__thirdBoxItemTitle">ИНДИВИДУАЛЬНЫЙ ПРОЕКТ</div>
+            <div class="section__thirdBoxItemDescription">Если ни один из предложенных вариантов Вам не подходит, Вы можете обратиться к нам за созданием индивидуального сайта.</div><a class="open__modal section__thirdBoxItemLink">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section__fourth">
+      <div class="wrapper">
+        <div class="normal__title" id="projects">Наши проекты</div>
+        <div class="section__fourthGallery owl-carousel"><img src="assets/img/section__4/logo.png" alt="1"><img src="assets/img/section__4/logo.png" alt="2"><img src="assets/img/section__4/logo.png" alt="3"><img src="assets/img/section__4/logo.png" alt="4"><img src="assets/img/section__4/logo.png" alt="1"><img src="assets/img/section__4/logo.png" alt="2"><img src="assets/img/section__4/logo.png" alt="3"><img src="assets/img/section__4/logo.png" alt="4"></div>
+      </div>
+    </section>
+    <section class="section__fifth">
+      <div class="wrapper">
+        <div class="normal__title" id="work">Как мы работаем?</div>
+        <div class="section__fifthBox"><img class="section__fifthBoxPicture" src="assets/img/section__5/our__plan.png"><img class="section__fifthBoxPictureMobile" src="assets/img/section__5/our__plan__mobile.png"></div>
+      </div>
+    </section>
+    <section class="section__sixth">
+      <div class="wrapper">
+        <div class="normal__title">Что о нас говорят клиенты</div>
+        <div class="section__sixthBox owl-carousel">
+          <div class="section__sixthBoxItem"><img class="section__sixthBoxItemPicture" src="assets/img/section__6/photoModel__2.jpg"><span class="section__sixthBoxItemName">Сидоров Александр</span>
+            <p class="section__sixthBoxItemDescription">На данный момент идет активный этап внедрения Битрикс24 в нашу компанию. Уже 12 отделов компании работают в корпоративном портале, при этом так же включены в работу наши партнёры, не являющиеся сотрудниками...</p><a class="section__sixthBoxItemLink">Читать далее</a>
+          </div>
+          <div class="section__sixthBoxItem"><img class="section__sixthBoxItemPicture" src="assets/img/section__6/photoModel__2.jpg"><span class="section__sixthBoxItemName">Рогов Евгений</span>
+            <p class="section__sixthBoxItemDescription">Стояла задача наладить эффективную коммуникацию между отделом продаж и отделом производства. Искали решение, остановились на Битрикс24. Компанию для внедрения корпоративного портала выбрали IPG, сотру... </p><a class="section__sixthBoxItemLink">Читать далее</a>
+          </div>
+          <div class="section__sixthBoxItem"><img class="section__sixthBoxItemPicture" src="assets/img/section__6/photoModel__2.jpg"><span class="section__sixthBoxItemName">Рогов Евгений</span>
+            <p class="section__sixthBoxItemDescription">Стояла задача наладить эффективную коммуникацию между отделом продаж и отделом производства. Искали решение, остановились на Битрикс24. Компанию для внедрения корпоративного портала выбрали IPG, сотру... </p><a class="section__sixthBoxItemLink">Читать далее</a>
+          </div>
+          <div class="section__sixthBoxItem"><img class="section__sixthBoxItemPicture" src="assets/img/section__6/photoModel__2.jpg"><span class="section__sixthBoxItemName">Рогов Евгений</span>
+            <p class="section__sixthBoxItemDescription">Стояла задача наладить эффективную коммуникацию между отделом продаж и отделом производства. Искали решение, остановились на Битрикс24. Компанию для внедрения корпоративного портала выбрали IPG, сотру... </p><a class="section__sixthBoxItemLink">Читать далее</a>
+          </div>
+          <div class="section__sixthBoxItem"><img class="section__sixthBoxItemPicture" src="assets/img/section__6/photoModel__2.jpg"><span class="section__sixthBoxItemName">Рогов Евгений</span>
+            <p class="section__sixthBoxItemDescription">Стояла задача наладить эффективную коммуникацию между отделом продаж и отделом производства. Искали решение, остановились на Битрикс24. Компанию для внедрения корпоративного портала выбрали IPG, сотру... </p><a class="section__sixthBoxItemLink">Читать далее</a>
+          </div>
+          <div class="section__sixthBoxItem"><img class="section__sixthBoxItemPicture" src="assets/img/section__6/photoModel__2.jpg"><span class="section__sixthBoxItemName">Рогов Евгений</span>
+            <p class="section__sixthBoxItemDescription">Стояла задача наладить эффективную коммуникацию между отделом продаж и отделом производства. Искали решение, остановились на Битрикс24. Компанию для внедрения корпоративного портала выбрали IPG, сотру... </p><a class="section__sixthBoxItemLink">Читать далее</a>
+          </div>
+          <div class="section__sixthBoxItem"><img class="section__sixthBoxItemPicture" src="assets/img/section__6/photoModel__2.jpg"><span class="section__sixthBoxItemName">Сычёва Анна</span>
+            <p class="section__sixthBoxItemDescription">Корпоративным порталом пользуемся уже более трёх лет. Сейчас уже более 200 сотрудников в 6 городах присутствия, в общей сложности это 22 филиала. На данный момент корпоративный портал для нас основной... </p><a class="section__sixthBoxItemLink">Читать далее</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="normal__title footer__title" id="call">Оставьте заявку и мы Вам перезвоним</div>
+      <div class="footer__Box">
+        <div class="bottomForm">
+          <div class="footer__BoxDate">
+            <input class="footer__BoxDateName" type="text" placeholder="ФИО">
+            <input class="footer__BoxDatePhone" type="text" placeholder="Телефон">
+            <input class="footer__BoxDateEmail" type="text" placeholder="Эл. почта">
+          </div>
+          <textarea class="footer__BoxText" placeholder="Ваш вопрос..."></textarea>
+          <button class="footer__BoxButton messagePush">Отправить</button>
+        </div>
+        <div class="thanksPage">
+          <div class="thanksPage__title">Спасибо наш специальст свяжется с Вами в течении 30 минут</div>
+        </div>
+      </div>
+    </footer>
+    <div class="overlay"></div>
+    <div class="modal">
+      <div class="modal__open">
+        <div class="modal__openTitle">Оставьте Ваши контакты</div>
+        <div class="modal__openNotyce">Мы перезвоним Вам в течении часа</div>
+        <input class="modal__openName" type="text" placeholder="ФИО">
+        <input class="modal__openPhone" type="text" placeholder="Телефон">
+        <button class="modal__openButton messagePush">Отправить</button>
+      </div>
+      <div class="thanksPage">
+        <div class="thanksPage__title">Спасибо наш специальст свяжется с Вами в течении 30 минут</div>
+        <button class="thanksPage__button modal__close">Закрыть</button>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.maskedinput.min.js"></script>
+    <script src="assets/js/app.js"></script>
   </body>
 </html>
-<header class="header">
-  <div class="wrapper">
-    <nav class="header__navbar"><img class="header__logotype" src="assets/img/header/logotype.png" alt="logotype">
-      <button class="header__phoneMenu"><img class="header__phoneMenuPhoto" src="assets/img/header/menu__mobile.png" alt="меню"></button>
-      <ul class="header__menu">
-        <li class="header__menuItem"><a href="#advantages">Приемущества</a></li>
-        <li class="header__menuItem"><a href="#services">Услуги</a></li>
-        <li class="header__menuItem"><a href="#projects">Проекты</a></li>
-        <li class="header__menuItem"><a href="#work">Работы</a></li>
-        <li class="header__menuItem"><a href="#call">Свяжитесь с нами</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-<section class="section__first">
-  <div class="wrapper">
-    <div class="section__firstTitleMain">Наша работа — наша страсть.</div>
-    <div class="section__firstTitle">Мы создаем качественные сайты, которые работают на ваш бизнес.</div>
-  </div>
-</section>
-<section class="section__second">
-  <div class="wrapper">
-    <div class="normal__title" id="advantages">Наши приемущества</div>
-    <div class="section__secondBox">
-      <div>
-        <div class="section__secondBoxItem"><img class="section__secondBoxItemPicture" src="assets/img/section__2/atom.png">
-          <div class="section__secondBoxItemTitle">Современные технологии</div>
-          <div class="section__secondBoxItemDescription">В разработке используются современные технологии, облегчающие дальнейшее сопровождение и развитие проекта.</div>
-        </div>
-        <div class="section__secondBoxItem"><img class="section__secondBoxItemPicture" src="assets/img/section__2/responsive.png">
-          <div class="section__secondBoxItemTitle">Адаптивность</div>
-          <div class="section__secondBoxItemDescription">При разработке мы учитываем любое разрешение экрана для удобства просмотра и пользованием сайта.</div>
-        </div>
-        <div class="section__secondBoxItem"><img class="section__secondBoxItemPicture" src="assets/img/section__2/atoms.png">
-          <div class="section__secondBoxItemTitle">Работаем на результат</div>
-          <div class="section__secondBoxItemDescription">При разработке ставятся конкретные и измеримые цели. Мы делаем сайт, который будет работать на ваш бизнес и генерировать продажи.</div>
-        </div>
-        <div class="section__secondBoxItem"><img class="section__secondBoxItemPicture" src="assets/img/section__2/key.png">
-          <div class="section__secondBoxItemTitle">Разработка под ключ</div>
-          <div class="section__secondBoxItemDescription">Создание сайтов «под ключ» - полный спектр работ начиная от дизайна до наполнения и технической поддержки.</div>
-        </div>
-      </div><img class="section__secondPicture" src="assets/img/section__2/owl__right.png" alt="owl">
-    </div>
-  </div>
-</section>
-<section class="section__third">
-  <div class="wrapper">
-    <div class="normal__title" id="services">Какие услуги мы предоставляем?</div>
-    <div class="section__thirdBox">
-      <div class="section__thirdBoxItem">
-        <div class="section__thirdBoxItemTitle">САЙТ ВИЗИТКА</div>
-        <div class="section__thirdBoxItemDescription">Станет отличным бюджетным вариантом для краткого ознакомления с компанией, магазином или другой организацией. Данный ресурс является самым простым и недорогим проектом, так как он состоит всего из одной страници.</div><a class="open__modal section__thirdBoxItemLink">Подробнее</a>
-      </div>
-      <div class="section__thirdBoxItem">
-        <div class="section__thirdBoxItemTitle">КОРПОРАТИВНЫЙ САЙТ</div>
-        <div class="section__thirdBoxItemDescription">Проект имеет более «продвинутый» функционал и большее количество страниц по сравнению с сайтом визиткой – от 5 до 20. Управлять опубликованным контентом Вы сможете при помощи наличия удобной системы управления.</div><a class="open__modal section__thirdBoxItemLink">Подробнее</a>
-      </div>
-      <div class="section__thirdBoxItem">
-        <div class="section__thirdBoxItemTitle">LANDING</div>
-        <div class="section__thirdBoxItemDescription">Еще один бюджетный вариант для ознакомления с компанией, магазином или другой организацией для сбора контактных данных целевой аудитории. Данный ресурс является  недорогим проектом, так как он состоит до 5 страниц страници.</div><a class="open__modal section__thirdBoxItemLink">Подробнее</a>
-      </div>
-      <div class="section__thirdBoxItem">
-        <div class="section__thirdBoxItemTitle">ИНДИВИДУАЛЬНЫЙ ПРОЕКТ</div>
-        <div class="section__thirdBoxItemDescription">Если ни один из предложенных вариантов Вам не подходит, Вы можете обратиться к нам за созданием индивидуального сайта.</div><a class="open__modal section__thirdBoxItemLink">Подробнее</a>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="section__fourth">
-  <div class="wrapper">
-    <div class="normal__title" id="projects">Наши проекты</div>
-    <div class="section__fourthGallery owl-carousel"><img src="assets/img/section__4/logo.png" alt="1"><img src="assets/img/section__4/logo.png" alt="2"><img src="assets/img/section__4/logo.png" alt="3"><img src="assets/img/section__4/logo.png" alt="4"><img src="assets/img/section__4/logo.png" alt="1"><img src="assets/img/section__4/logo.png" alt="2"><img src="assets/img/section__4/logo.png" alt="3"><img src="assets/img/section__4/logo.png" alt="4"></div>
-  </div>
-</section>
-<section class="section__fifth">
-  <div class="wrapper">
-    <div class="normal__title" id="work">Как мы работаем?</div>
-    <div class="section__fifthBox"><img class="section__fifthBoxPicture" src="assets/img/section__5/our__plan.png"><img class="section__fifthBoxPictureMobile" src="assets/img/section__5/our__plan__mobile.png"></div>
-  </div>
-</section>
-<section class="section__sixth">
-  <div class="wrapper">
-    <div class="normal__title">Что о нас говорят клиенты</div>
-    <div class="section__sixthBox owl-carousel">
-      <div class="section__sixthBoxItem"><img class="section__sixthBoxItemPicture" src="assets/img/section__6/photoModel__2.jpg"><span class="section__sixthBoxItemName">Сидоров Александр</span>
-        <p class="section__sixthBoxItemDescription">На данный момент идет активный этап внедрения Битрикс24 в нашу компанию. Уже 12 отделов компании работают в корпоративном портале, при этом так же включены в работу наши партнёры, не являющиеся сотрудниками...</p><a class="section__sixthBoxItemLink">Читать далее</a>
-      </div>
-      <div class="section__sixthBoxItem"><img class="section__sixthBoxItemPicture" src="assets/img/section__6/photoModel__2.jpg"><span class="section__sixthBoxItemName">Рогов Евгений</span>
-        <p class="section__sixthBoxItemDescription">Стояла задача наладить эффективную коммуникацию между отделом продаж и отделом производства. Искали решение, остановились на Битрикс24. Компанию для внедрения корпоративного портала выбрали IPG, сотру... </p><a class="section__sixthBoxItemLink">Читать далее</a>
-      </div>
-      <div class="section__sixthBoxItem"><img class="section__sixthBoxItemPicture" src="assets/img/section__6/photoModel__2.jpg"><span class="section__sixthBoxItemName">Рогов Евгений</span>
-        <p class="section__sixthBoxItemDescription">Стояла задача наладить эффективную коммуникацию между отделом продаж и отделом производства. Искали решение, остановились на Битрикс24. Компанию для внедрения корпоративного портала выбрали IPG, сотру... </p><a class="section__sixthBoxItemLink">Читать далее</a>
-      </div>
-      <div class="section__sixthBoxItem"><img class="section__sixthBoxItemPicture" src="assets/img/section__6/photoModel__2.jpg"><span class="section__sixthBoxItemName">Рогов Евгений</span>
-        <p class="section__sixthBoxItemDescription">Стояла задача наладить эффективную коммуникацию между отделом продаж и отделом производства. Искали решение, остановились на Битрикс24. Компанию для внедрения корпоративного портала выбрали IPG, сотру... </p><a class="section__sixthBoxItemLink">Читать далее</a>
-      </div>
-      <div class="section__sixthBoxItem"><img class="section__sixthBoxItemPicture" src="assets/img/section__6/photoModel__2.jpg"><span class="section__sixthBoxItemName">Рогов Евгений</span>
-        <p class="section__sixthBoxItemDescription">Стояла задача наладить эффективную коммуникацию между отделом продаж и отделом производства. Искали решение, остановились на Битрикс24. Компанию для внедрения корпоративного портала выбрали IPG, сотру... </p><a class="section__sixthBoxItemLink">Читать далее</a>
-      </div>
-      <div class="section__sixthBoxItem"><img class="section__sixthBoxItemPicture" src="assets/img/section__6/photoModel__2.jpg"><span class="section__sixthBoxItemName">Рогов Евгений</span>
-        <p class="section__sixthBoxItemDescription">Стояла задача наладить эффективную коммуникацию между отделом продаж и отделом производства. Искали решение, остановились на Битрикс24. Компанию для внедрения корпоративного портала выбрали IPG, сотру... </p><a class="section__sixthBoxItemLink">Читать далее</a>
-      </div>
-      <div class="section__sixthBoxItem"><img class="section__sixthBoxItemPicture" src="assets/img/section__6/photoModel__2.jpg"><span class="section__sixthBoxItemName">Сычёва Анна</span>
-        <p class="section__sixthBoxItemDescription">Корпоративным порталом пользуемся уже более трёх лет. Сейчас уже более 200 сотрудников в 6 городах присутствия, в общей сложности это 22 филиала. На данный момент корпоративный портал для нас основной... </p><a class="section__sixthBoxItemLink">Читать далее</a>
-      </div>
-    </div>
-  </div>
-</section>
-<footer class="footer">
-  <div class="normal__title footer__title" id="call">Оставьте заявку и мы Вам перезвоним</div>
-  <div class="footer__Box">
-    <div class="bottomForm">
-      <div class="footer__BoxDate">
-        <input class="footer__BoxDateName" type="text" placeholder="ФИО">
-        <input class="footer__BoxDatePhone" type="text" placeholder="Телефон">
-        <input class="footer__BoxDateEmail" type="text" placeholder="Эл. почта">
-      </div>
-      <textarea class="footer__BoxText" placeholder="Ваш вопрос..."></textarea>
-      <button class="footer__BoxButton messagePush">Отправить</button>
-    </div>
-    <div class="thanksPage">
-      <div class="thanksPage__title">Спасибо наш специальст свяжется с Вами в течении 30 минут</div>
-    </div>
-  </div>
-</footer>
-<div class="overlay"></div>
-<div class="modal">
-  <div class="modal__open">
-    <div class="modal__openTitle">Оставьте Ваши контакты</div>
-    <div class="modal__openNotyce">Мы перезвоним Вам в течении часа</div>
-    <input class="modal__openName" type="text" placeholder="ФИО">
-    <input class="modal__openPhone" type="text" placeholder="Телефон">
-    <button class="modal__openButton messagePush">Отправить</button>
-  </div>
-  <div class="thanksPage">
-    <div class="thanksPage__title">Спасибо наш специальст свяжется с Вами в течении 30 минут</div>
-    <button class="thanksPage__button modal__close">Закрыть</button>
-  </div>
-</div>
