@@ -93,7 +93,7 @@ $(document).ready(function() {
     //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     // Open Menu
     $(".header__phoneMenu").click(function() {
-        openMenu ? heightMenu = '245px' : heightMenu = '60px';
+        openMenu ? heightMenu = '270px' : heightMenu = '60px';
         openMenu ? displayMenu = 'flex' : displayMenu = 'none';
         openMenu ? newSource = 'assets/img/header/menu__mobile__close.png' : newSource = 'assets/img/header/menu__mobile.png';
         $(".header").animate({

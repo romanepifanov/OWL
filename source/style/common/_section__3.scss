@@ -59,7 +59,7 @@
                     text-decoration: none;
                 }
                 &:active {
-                   background: $blueDark; 
+                    background: $blueDark;
                 }
             }
         }
@@ -89,17 +89,80 @@
     }
 }
 
+@media (max-width:414px) {
+    .section__third {
+        &Box {
+            &Item {
+                background-size: 116%;
+                &:nth-child(2) {
+                    background-size: 106%;
+                }
+                &:nth-child(4) {
+                    background-size: 104%;
+                }
+                &Link {
+                    margin-left: 268px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:384px) {
+    .section__third {
+        &Box {
+            &Item {
+                background-size: 125%;
+                &:nth-child(2) {
+                    background-size: 114%;
+                }
+                &:nth-child(4) {
+                    background-size: 112%;
+                }
+                &Link {
+                    margin-left: 238px;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width:380px) {
     .section__third {
         &Box {
             &Item {
                 padding: 10px 26px 15px;
+                &:nth-child(3n) {
+                    background-size: 106%;
+                }
                 &Title {
                     margin-left: 0;
                     text-align: center;
                 }
                 &Link {
                     margin-left: 250px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:375px) {
+    .section__third {
+        &Box {
+            &Item {
+                background-size: 128%;
+                &:nth-child(2) {
+                    background-size: 117%;
+                }
+                &:nth-child(3) {
+                    background-size: 108%;
+                }
+                &:nth-child(4) {
+                    background-size: 115%;
+                }
+                &Link {
+                    margin-left: 246px;
                 }
             }
         }
@@ -134,7 +197,33 @@
                     width: 73px;
                     height: 29px;
                     font-size: 10px;
-                    margin: -50px 0 0 234px;
+                    margin: -50px 0 0 231px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:240px) {
+    .section__third {
+        &Box {
+            &Item {
+                width: 232px;
+                background-size: 135%;
+                &:nth-child(2) {
+                    background-size: 123%;
+                }
+                &:nth-child(3) {
+                    background-size: 114%;
+                }
+                &:nth-child(4) {
+                    background-size: 121%;
+                }
+                &Link {
+                    margin-left: 246px;
+                }
+                &Link {
+                    margin-left: 151px;
                 }
             }
         }

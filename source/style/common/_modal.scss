@@ -75,13 +75,42 @@
     }
 }
 
+@media (max-width:568px) {
+    .modal {
+        width: 558px;
+        margin-left: -278px;
+    }
+}
+
+@media (max-width:480px) {
+    .modal {
+        width: 470px;
+        margin-left: -235px;
+    }
+}
+
 @media (max-width:420px) {
     .modal {
+        background-size: 115%;
         width: 416px;
         height: 400px;
         margin-top: -200px;
         margin-left: -208px;
         padding: 16px;
+    }
+}
+
+@media (max-width:414px) {
+    .modal {
+        width: 404px;
+        margin-left: -202px;
+    }
+}
+
+@media (max-width:384px) {
+    .modal {
+        width: 374px;
+        margin-left: -187px;
     }
 }
 
@@ -92,6 +121,13 @@
         margin-top: -200px;
         margin-left: -188px;
         padding: 8px;
+    }
+}
+
+@media (max-width:375px) {
+    .modal {
+        width: 364px;
+        margin-left: -182px;
     }
 }
 
@@ -108,8 +144,8 @@
 @media (max-width:320px) {
     .modal {
         width: 316px;
-        height: 376px;
-        margin-top: -188px;
+        height: 310px;
+        margin-top: -160px;
         margin-left: -158px;
         padding: 10px 2px 2px;
         &__open {
@@ -130,6 +166,20 @@
             }
             &Button {
                 font-size: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width:240px) {
+    .modal {
+        background-position: 0 50%;
+        background-size: 159%;
+        width: 230px;
+        margin-left: -115px;
+        &__open {
+            &Notyce {
+                margin-bottom: 20px;
             }
         }
     }

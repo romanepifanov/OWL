@@ -37,6 +37,13 @@
     }
 }
 
+@media (max-width:1024px) {
+    .section__secondBox {
+        width: 1024px;
+        padding: 60px 0 0 15px;
+    }
+}
+
 @media (max-width:992px) {
     .section__second {
         &Box {
@@ -64,11 +71,18 @@
 @media (max-width:420px) {
     .section__second {
         &Box {
+            padding-top: 40px;
             &Item {
                 width: 100%;
                 padding: 0 16px;
             }
         }
+    }
+}
+
+@media (max-width:375px) {
+    .section__secondBoxItemPicture {
+        margin-right: 24px;
     }
 }
 
@@ -102,6 +116,23 @@
                 &Picture {
                     width: 30px;
                     height: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:240px) {
+    .section__second {
+        height: 546px;
+        &Box {
+            &Item {
+                height: 86px;
+                margin-bottom: 30px;
+                padding: 0 15px;
+                &Title {}
+                &Description {
+                    margin-left: 55px;
                 }
             }
         }

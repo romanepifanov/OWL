@@ -14,13 +14,23 @@
     }
 }
 
+@media (max-width:1024px) {
+    .section__first {
+        &Title {
+            width: 490px;
+            padding-left: 15px;
+            &Main {
+                padding-left: 15px;
+            }
+        }
+    }
+}
+
 @media (max-width:992px) {
     .section__first {
         height: 450px;
         &Title {
-            padding-left: 16px;
             &Main {
-                padding-left: 16px;
                 margin-bottom: 20px;
             }
         }
@@ -35,10 +45,45 @@
     }
 }
 
+@media (max-width:667px) {
+    .section__first {
+        height: 400px;
+    }
+}
+
+@media (max-width:598px) {
+    .section__first {
+        padding-top: 100px;
+        height: 358px;
+    }
+}
+
+@media (max-width:568px) {
+    .section__first {
+        height: 340px;
+        &TitleMain {
+            font-size: 38px;
+        }
+    }
+}
+
+@media (max-width:480px) {
+    .section__first {
+        padding-top: 60px;
+        height: 288px;
+        &Title {
+            font-size: 22px;
+            width: 366px;
+            &Main {
+                font-size: 32px;
+            }
+        }
+    }
+}
+
 @media (max-width:420px) {
     .section__first {
-        height: 254px;
-        padding-top: 80px;
+        height: 252px;
         &Title {
             font-size: 16px;
             width: 280px;
@@ -49,11 +94,31 @@
         }
     }
 }
-@media (max-width:380px) {
+
+@media (max-width:414px) {
+    .section__first {
+        height: 248px;
+    }
+}
+
+@media (max-width:384px) {
     .section__first {
         height: 230px;
     }
 }
+
+@media (max-width:380px) {
+    .section__first {
+        height: 228px;
+    }
+}
+
+@media (max-width:375px) {
+    .section__first {
+        height: 225px;
+    }
+}
+
 @media (max-width:360px) {
     .section__first {
         height: 218px;
@@ -68,7 +133,7 @@
 @media (max-width:320px) {
     .section__first {
         height: 192px;
-        padding-top:30px;
+        padding-top: 50px;
         &Title {
             padding-left: 31px;
             font-size: 8px;
@@ -76,6 +141,20 @@
                 font-size: 12px;
                 padding-left: 31px;
                 margin-bottom: 17px;
+            }
+        }
+    }
+}
+
+@media (max-width:240px) {
+    .section__first {
+        height: 144px;
+        padding-top: 30x;
+        &Title {
+            padding-left: 15px;
+            width: 184px;
+            &Main {
+                padding-left: 15px
             }
         }
     }

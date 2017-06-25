@@ -59,10 +59,25 @@
     }
 }
 
-@media (max-width:420px) {
+@media (max-width:736px) {
+    .footer {
+        background-position: 0 100%;
+        &__BoxDate input {
+            width: 225px;
+        }
+    }
+}
+
+@media (max-width: 667px) {
+    .footer__BoxDate input {
+        width: 200px;
+    }
+}
+
+@media (max-width:598px) {
     .footer {
         background: url(/assets/img/footer/mobile__background.png) no-repeat;
-            background-size: 100%;
+        background-size: 100%;
         &__Box {
             &Date {
                 flex-wrap: wrap;
@@ -75,6 +90,12 @@
                 }
             }
         }
+    }
+}
+
+@media (max-width:384px) {
+    .footer {
+        background-position: 0 100%;
     }
 }
 

@@ -48,59 +48,55 @@ body {
 }
 
 @import 'common/*.scss';
-@media (max-width:992px) {
+@media (max-width:1024px) {
     .wrapper {
-        width: 992px;
-    }
-}
-
-@media (max-width:768px) {
-    .wrapper {
-        width: 768px;
-    }
-}
-
-@media (max-width:420px) {
-    .wrapper {
-        width: 420px;
-    }
-    .normal__title {
-        font-size: 20px;
-    }
-}
-
-@media (max-width:380px) {
-    .wrapper {
-        width: 380px;
-    }
-}
-
-@media (max-width:360px) {
-    .wrapper {
-        width: 360px;
+        width: 100%;
     }
     .normal__title {
         text-align: center;
     }
 }
 
-@media (max-width:320px) {
-    .wrapper {
-        width: 320px;
-    }
+@media (max-width:420px) {
     .normal__title {
-        font-size: 16px;
+        font-size: 22px;
     }
 }
+
+@media (max-width:320px) {
+    .normal__title {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:1024px) {}
 
 @media (max-width:992px) {}
 
 @media (max-width:768px) {}
 
+@media (max-width:736px) {}
+
+@media (max-width:667px) {}
+
+@media (max-width:598px) {}
+
+@media (max-width:568px) {}
+
+@media (max-width:480px) {}
+
 @media (max-width:420px) {}
 
+@media (max-width:414px) {}
+
+@media (max-width:384px) {}
+
 @media (max-width:380px) {}
+
+@media (max-width:375px) {}
 
 @media (max-width:360px) {}
 
 @media (max-width:320px) {}
+
+@media (max-width:240px) {}
