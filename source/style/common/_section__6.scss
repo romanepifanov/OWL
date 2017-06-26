@@ -1,16 +1,17 @@
 .section__sixth {
-    height: 610px;
+    height: 700px;
     padding-top: 40px;
     border-bottom: 1px solid $greyLight;
     &Box {
         padding: 40px 15px 0;
         &Item {
             padding: 25px 37px;
-            height: 450px;
+            height: 550px;
             width: 370px;
             border: 1px solid $greyLight;
             display: flex;
             justify-content: center;
+            align-content: flex-start;
             flex-wrap: wrap;
             &Picture {
                 height: 122px;
@@ -63,6 +64,7 @@
         }
     }
 }
+
 @media (max-width:360px) {
     .section__sixth {
         &Box {
@@ -78,8 +80,8 @@
         &Box {
             &Item {
                 margin-bottom: 20px;
-                height: 261px;
                 padding: 15px;
+                height: 320px;
                 &Picture {
                     width: 84px;
                     height: 84px;
