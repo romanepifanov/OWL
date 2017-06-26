@@ -1,12 +1,12 @@
 .section__sixth {
-    height: 700px;
+    height: 660px;
     padding-top: 40px;
     border-bottom: 1px solid $greyLight;
     &Box {
         padding: 40px 15px 0;
         &Item {
             padding: 25px 37px;
-            height: 550px;
+            height: 515px;
             width: 370px;
             border: 1px solid $greyLight;
             display: flex;
@@ -69,6 +69,7 @@
     .section__sixth {
         &Box {
             &Item {
+                height: 540px;
                 margin-bottom: 20px;
             }
         }

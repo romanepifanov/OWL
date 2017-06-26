@@ -1,7 +1,7 @@
 $(document).ready(function() {
     var messagePush = false;
     var openMenu = true
-    var heightMenu, displayMenu, newSource;
+    var heightMenu, displayMenu, newClass;
     var str, name, phone, emailBottom, textBottom = '';
     // JSON
     $(".messagePush").click(function() {
@@ -95,14 +95,13 @@ $(document).ready(function() {
     $(".header__phoneMenu").click(function() {
         openMenu ? heightMenu = '270px' : heightMenu = '60px';
         openMenu ? displayMenu = 'flex' : displayMenu = 'none';
-        openMenu ? newSource = 'assets/img/header/menu__mobile__close.png' : newSource = 'assets/img/header/menu__mobile.png';
+        openMenu ? $(".header__phoneMenu").addClass('active') : $(".header__phoneMenu").removeClass('active');
         $(".header").animate({
             height: heightMenu
         }, 500, function() {
             $(".header__menu").css({
                 display: displayMenu
             });
-            $(".header__phoneMenuPhoto").attr('src', newSource);
             openMenu = !openMenu;
         });
     });
