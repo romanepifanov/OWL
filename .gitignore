@@ -1,3 +1,9 @@
 .vscode
 bower_components
 node_modules
+gulp
+.bowerrc
+.eslintrc
+.jsbeautifyrc
+bower.json
+gulpfile.js
