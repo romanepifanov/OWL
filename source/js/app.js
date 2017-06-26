@@ -173,4 +173,14 @@ $(document).ready(function() {
         $(".footer__BoxDatePhone").mask("+7(999) 999-99-99");
     });
     // End Mask input
+    //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    // Header shadow
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 0) {
+            $(".header").css('box-shadow', '0 0 20px 0');
+        } else {
+           $(".header").css('box-shadow', 'none');
+        }
+    });
+    // Endheader shadow
 });
